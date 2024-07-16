@@ -26,7 +26,7 @@ setup(
     },
     install_requires=[
         'spacy>=3.0.0',
-        'gliner>=0.2.0',
+        'gliner @ git+https://github.com/thegenerativegeneration/GLiNER.git',
         'seaborn',
         'matplotlib',
         'numpy'
